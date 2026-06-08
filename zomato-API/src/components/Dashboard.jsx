@@ -48,7 +48,7 @@ export default function Dashboard() {
   ];
 
   const rawImg = user?.image || user?.imageUrl || user?.avatar || null;
-  const avatarSrc = resolveImageUrl(rawImg) || DEFAULT_AVATAR;
+  const avatarSrc = resolveImageUrl(rawImg);
 
   return (
     <DashboardLayout>
