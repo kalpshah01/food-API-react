@@ -211,7 +211,7 @@ export default function AddFood() {
                   />
                   <div className="img-preview-wrapper">
                     <img
-                      src={preview || FOOD_PLACEHOLDER}
+                      src={preview}
                       alt="Preview"
                       style={{ width: '100%', height: '220px', objectFit: 'cover', display: 'block' }}
                     />
